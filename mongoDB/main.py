@@ -1,4 +1,8 @@
 from usuario import criarUsuario, editarUsuario, deletarUsuario, listarUsuario, listarTodosUsuarios
+from favoritos import criarFavorito, editarFavorito, deletarFavorito, listarFavorito, listarTodosFavoritos
+from produto import criarProduto, editarProduto, deletarProduto, listarProduto, listarTodosProdutos
+from vendedor import criarVendedor, editarVendedor, deletarVendedor, listarVendedor, listarTodosVendedores
+from compra import criarCompra, editarCompra, deletarCompra, listarCompra, listarTodasCompras
 
 print('-------- MongoDB -----------')
 

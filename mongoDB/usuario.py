@@ -115,7 +115,7 @@ def deletarUsuario():
     try:
         usuario_escolhido = usuarios[opcao]
     except IndexError:
-        print("Indice não encontrado!, por favor, selecione um indice valido.")
+        print("Opção não encontrada! Por favor, escolha uma opção válida.")
         return
 
     query_filter = {"_id": ObjectId(usuario_escolhido['_id'])}
